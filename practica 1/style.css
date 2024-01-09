@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arriba {
+    margin-top: 80px;
+    background-color: #bf34db; 
+    color: #fff; 
+    margin-left: 530px;
+    margin-right: 530px;
+}
+
+.imagen-centro {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40%; 
+    max-height: 20vh; 
+    border-radius: 50%; 
+}
+
+.abajo {
+    background-color: rgb(46, 128, 204); 
+    color: #fff;
+    margin-bottom: 80px;
+    margin-left: 530px;
+    margin-right: 530px;
+}
+
+h1, p {
+    margin: 0;
+}
